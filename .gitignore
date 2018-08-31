@@ -1,0 +1,10 @@
+*.pyc
+app/secure.py
+venv
+migrations
+Pipfile.lock
+fisher2.py
+__pycache__
+.idea
+.vscode
+/app/secure.py
