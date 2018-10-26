@@ -3,7 +3,8 @@
  微信公众号：林间有风
 """
 from flask import flash, redirect, url_for, render_template, request
-from flask.ext.login import current_user
+#from flask.ext.login import current_user
+from flask_login import current_user
 
 from app.libs.email import send_mail
 from app.models.base import db
